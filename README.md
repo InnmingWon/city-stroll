@@ -60,16 +60,22 @@
 
 ### 安装
 
-发布到 npm 后：
+**方式一：直接从 GitHub 安装（推荐，无需 npm 账号）**
 
 ```text
-install_bundle  city-stroll
+install_bundle  https://github.com/InnmingWon/city-stroll/archive/refs/tags/v0.2.0.tar.gz
 ```
 
-本地开发（从路径）安装：
+或者把仓库克隆 / 下载到本地，再按路径安装：
 
 ```text
 install_bundle  C:\path\to\city-stroll
+```
+
+**方式二：从 npm 安装（包发布到 npm 后可用）**
+
+```text
+install_bundle  city-stroll
 ```
 
 ### 启用
