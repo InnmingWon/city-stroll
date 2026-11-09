@@ -1,0 +1,4 @@
+- insert:
+    - id: city-stroll
+      name: 'city-stroll'
+      config: {}

@@ -1,0 +1,35 @@
+{
+  "name": "city-stroll",
+  "version": "0.2.0",
+  "description": "城市漫步 · 一日逛吃规划：面向常驻本地的城市人群，聚合小红书及全网口碑，交叉验证后给出「本周热门 + 经典口碑」双榜（景点 / 美食）；再按出发地、偏好与时段自动排出含地铁通勤与时间花费的半日 / 一日行程。支持北京、上海、广州、深圳、成都、杭州、西安、武汉、南京、重庆 10 城。DeepSeek Harness Cordis 插件，零运行时依赖。",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InnmingWon/city-stroll.git"
+  },
+  "homepage": "https://github.com/InnmingWon/city-stroll#readme",
+  "type": "module",
+  "keywords": [
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "xiaohongshu",
+    "cities",
+    "food",
+    "attractions",
+    "itinerary",
+    "travel"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "data", "cordis.patch.yml", "locale/*.json", "icon.svg", "CHANGELOG.md"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": "^3.18.0"
+  }
+}

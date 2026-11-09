@@ -1,0 +1,84 @@
+{
+  "cities": [
+    {
+      "id": "beijing",
+      "name": "北京",
+      "aliases": ["北京市", "京", "首都"],
+      "districts": ["海淀", "朝阳", "西城", "东城", "丰台", "石景山", "通州", "昌平", "大兴", "顺义", "房山", "门头沟", "怀柔", "密云", "平谷", "延庆"],
+      "defaultOrigin": "知春路",
+      "file": "./beijing.json"
+    },
+    {
+      "id": "shanghai",
+      "name": "上海",
+      "aliases": ["上海市", "沪", "魔都"],
+      "districts": ["黄浦", "徐汇", "静安", "长宁", "普陀", "虹口", "杨浦", "浦东", "闵行", "宝山", "嘉定", "松江", "青浦", "奉贤", "金山", "崇明"],
+      "defaultOrigin": "人民广场",
+      "file": "./shanghai.json"
+    },
+    {
+      "id": "guangzhou",
+      "name": "广州",
+      "aliases": ["广州市", "穗", "羊城", "花城"],
+      "districts": ["越秀", "天河", "海珠", "荔湾", "白云", "黄埔", "番禺", "花都", "南沙", "增城", "从化"],
+      "defaultOrigin": "体育西路",
+      "file": "./guangzhou.json"
+    },
+    {
+      "id": "shenzhen",
+      "name": "深圳",
+      "aliases": ["深圳市", "深", "鹏城"],
+      "districts": ["福田", "罗湖", "南山", "宝安", "龙岗", "龙华", "盐田", "坪山", "光明", "大鹏"],
+      "defaultOrigin": "市民中心",
+      "file": "./shenzhen.json"
+    },
+    {
+      "id": "chengdu",
+      "name": "成都",
+      "aliases": ["成都市", "蓉", "蓉城", "锦官城"],
+      "districts": ["锦江", "青羊", "武侯", "成华", "金牛", "高新", "双流", "温江", "郫都", "龙泉驿", "新都"],
+      "defaultOrigin": "春熙路",
+      "file": "./chengdu.json"
+    },
+    {
+      "id": "hangzhou",
+      "name": "杭州",
+      "aliases": ["杭州市", "杭", "杭城", "临安"],
+      "districts": ["上城", "拱墅", "西湖", "滨江", "萧山", "余杭", "富阳", "临安", "钱塘"],
+      "defaultOrigin": "龙翔桥",
+      "file": "./hangzhou.json"
+    },
+    {
+      "id": "xian",
+      "name": "西安",
+      "aliases": ["西安市", "长安", "镐京"],
+      "districts": ["新城", "碑林", "莲湖", "雁塔", "未央", "灞桥", "长安", "临潼", "高陵", "阎良"],
+      "defaultOrigin": "钟楼",
+      "file": "./xian.json"
+    },
+    {
+      "id": "wuhan",
+      "name": "武汉",
+      "aliases": ["武汉市", "汉", "江城"],
+      "districts": ["江岸", "江汉", "硚口", "汉阳", "武昌", "青山", "洪山", "东西湖", "蔡甸", "江夏", "黄陂", "新洲"],
+      "defaultOrigin": "江汉路",
+      "file": "./wuhan.json"
+    },
+    {
+      "id": "nanjing",
+      "name": "南京",
+      "aliases": ["南京市", "宁", "金陵"],
+      "districts": ["玄武", "秦淮", "鼓楼", "建邺", "雨花台", "栖霞", "浦口", "江宁", "六合", "溧水", "高淳"],
+      "defaultOrigin": "新街口",
+      "file": "./nanjing.json"
+    },
+    {
+      "id": "chongqing",
+      "name": "重庆",
+      "aliases": ["重庆市", "渝", "山城", "雾都"],
+      "districts": ["渝中", "江北", "南岸", "九龙坡", "沙坪坝", "渝北", "大渡口", "巴南", "北碚"],
+      "defaultOrigin": "观音桥",
+      "file": "./chongqing.json"
+    }
+  ]
+}
