@@ -102,6 +102,12 @@ set_bundle  city-stroll  enabled:true
 
 ---
 
+## 在 Codex / Claude 等 agent 里用
+
+仓库根目录附了一份 [`SKILL.md`](./SKILL.md)，不依赖 DSH。把它放进支持 skills 的 agent（Claude Code、Codex 等）的技能目录，它就会按同样的流程规划：先问清出发地/时长/偏好，再搜全网口碑，给出「近期热门 + 经典口碑」双榜，最后按出发地排出含通勤与时间花费的行程。
+
+---
+
 ## 数据来源
 
 说清楚这个插件的数据到底从哪来。
